@@ -1,0 +1,53 @@
+*{
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+}
+.header {
+    background-color: #363636;
+}
+nav ul {
+    margin-left: 550px;
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #34b53a;
+    padding: 40px;
+}
+nav ul li :hover {
+    color: #fff;
+    font-size: 20px;
+}
+.container img {
+    width: 700px;
+    margin: 100px 0 50px 630px;
+}
+.container h1, p {
+    margin-left: 550px;
+    margin-right: 500px;
+    text-align: justify;
+}
+.contact ul li {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+.contact ul li :hover {
+    color: black;
+    font-size: 25px;
+}
+.contact ul li a {
+    text-decoration: none;
+    color: rgb(250, 81, 81);
+    font-size: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+footer {
+    padding: 20px;
+    background-color: #363636;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
