@@ -24,36 +24,14 @@
     font-size: 40px;
     color: aqua;
     text-decoration: none;
-
 }
-
 .navbar ul li :hover {
     color: chartreuse;
     font-style: oblique;
 }
-.container img {
-    transform: translateX(500px);
-    margin-top: 50px;
-}
-.container h1, p {
-    margin-left: 550px;
-    margin-right: 500px;
-    text-align: justify;
-}
-.contact ul li {
+.header{
     text-align: center;
-    list-style-type: none;
-    padding: 10px;
-}
-.contact ul li :hover {
-    color: black;
-    font-size: 25px;
-}
-.contact ul li a {
-    text-decoration: none;
-    color: rgb(250, 81, 81);
-    font-size: 20px;
-    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(255, 187, 0);
 }
 footer {
     padding: 20px;

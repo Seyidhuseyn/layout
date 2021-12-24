@@ -8,6 +8,7 @@
 .navbar nav ul {
     list-style-type: none;
     background-color: #333;
+    
 }
 .navbar nav ul li {
     display: inline-block;
@@ -31,29 +32,28 @@
     color: chartreuse;
     font-style: oblique;
 }
-.container img {
-    transform: translateX(500px);
-    margin-top: 50px;
+.container {
+    background-color: darkgrey;
 }
-.container h1, p {
-    margin-left: 550px;
-    margin-right: 500px;
-    text-align: justify;
+.container ul li {
+    padding: 10px;
+    list-style-type: decimal;
 }
-.contact ul li {
-    text-align: center;
-    list-style-type: none;
+table th {
+    transform: translateX(120px);
+}
+table, th, td{
+    border: 1px solid #000;
+}
+th, td {
     padding: 10px;
 }
-.contact ul li :hover {
-    color: black;
-    font-size: 25px;
+th {
+    background-color: gold;
 }
-.contact ul li a {
-    text-decoration: none;
-    color: rgb(250, 81, 81);
-    font-size: 20px;
-    font-family: 'Fuzzy Bubbles', cursive;
+td {
+    background-color: green;
+    color: aqua;
 }
 footer {
     padding: 20px;
